@@ -27,27 +27,28 @@
 <br>
 <br>
 <h3 style="text-align: center;"><img src="https://we247.org/wp-content/uploads/2018/08/ToyLibraryLogo.png"/></h3>
-	
-			<div class="well"><h3 class="page-title">All Toys (A-Z)</h3><a href="#bottom">Start at Z</a> | <a href="#topic">Browse by Category</a> | <a href="#tag">Browse by Tag</a> | <a href="https://we247.org/weplay/">Browse</a> | <a href="#rules">Lending Rules</a></div>
-
+			<div class="well"><h3 class="page-title">All Toys (A-Z)</h3><a href="#bottom">Start at Z</a> |
+				<a href="#topic">Browse by Category</a> | <a href="#tag">Browse by Tag</a> | <a href="https://we247.org/weplay/">Browse</a> |
+				<a href="#rules">Lending Rules</a></div>
 <div class="intro">
-<p>The WEPlay Toy Library Collection is designed to serve all families. The collection is comprised of many award winning toys for all ages. <a href="https://search.clevnet.org/client/en_US/clevnet/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:7574802/one">View the status of the toys in the catalog.</a> If you'd like to place a hold on a toy, please call the library location listed below. <a href="https://we247.org/wp-content/uploads/2018/09/Toy-Library-Brochure-1.pdf">View the informational brochure to learn more.</a></p>
+<p>The WEPlay Toy Library Collection is designed to serve all families. The collection is comprised of many award winning toys for all ages.
+	<a href="https://search.clevnet.org/client/en_US/clevnet/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:7574802/one">View the status of the toys in the catalog.</a>
+	If you'd like to place a hold on a toy, please call the library location listed below. <a href="https://we247.org/wp-content/uploads/2018/09/Toy-Library-Brochure-1.pdf">
+		View the informational brochure to learn more.</a></p>
 </div>
 <hr>
-
-			
 		 <?php while ( have_posts() ) : the_post(); ?>
 					<?php get_template_part( 'content', get_post_format() ); ?>
 
 				<?php endwhile; ?>
-				
+
 
 				<?php get_template_part( 'navigation', 'archive' ); ?>
 
 			<?php else : ?>
 
 				<?php get_template_part( 'no-results', 'archive' ); ?>
-				
+
 			<?php endif; ?>
 
 			<a name="bottom"></a>
@@ -89,9 +90,9 @@
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-	
+
 	<?php spacious_sidebar_select(); ?>
-	
+
 	<?php do_action( 'spacious_after_body_content' ); ?>
 
 <?php get_footer(); ?>
