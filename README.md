@@ -1,7 +1,7 @@
 # Custom Post Type for W-E Play Toy Library
 This Wordpress custom post type was created to display toys that are available for circulation at a public library.
 
-{View the toy library.](https://we247.org/toys)
+[View the toy library.](https://we247.org/toys)
 
 ## The post type includes the following:
 * Title (Name of toy)
